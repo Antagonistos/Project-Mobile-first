@@ -1,0 +1,28 @@
+body{
+	font-family: 'montserrat';
+	min-width: 320px;
+	overflow-x: hidden;
+}
+a,p{
+	text-decoration: none;
+	color: #737373;
+	font-size: 30px;
+	font-weight: 400;
+}
+p{
+	font-size: 20px;
+}
+.container{
+	max-width: 1050px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 57px;
+	color: #252B42;
+}
+.subtitle{
+	font-size: 14px;
+}
