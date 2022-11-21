@@ -1,0 +1,157 @@
+.contact::before{
+	content: '';
+	background-image: url(../images/contact__img.jpg);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+}
+.contact{
+	.wrapper{
+	.container{
+		.contact__inner{
+			max-width: 702px;
+			max-height: 579px;
+			.contact__subject{
+				padding-top: 90px;
+			}
+			.title{
+				margin-bottom: 40px;
+			}
+			.contact__input{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				.input, .label{
+					display: flex;
+					width: 275px;
+					border-radius: 5px;
+					border: 1px solid #BDBDBD;
+					cursor: pointer;
+					font-size: 14px;
+					font-weight: 600;
+					color: #BDBDBD;
+					padding-left: 18px;
+					padding-top: 11px;
+					padding-bottom: 15px;
+					margin-bottom: 20px;
+					margin-right: 20px;
+				}
+				.input{
+					opacity: 80%;
+				}
+				.label{
+					background: #fff;
+					padding-right: 2px;
+				}
+				.select{
+					position: absolute;
+					opacity: 0;
+					width: 275px;
+				}
+				.option{
+				}
+				.label::after,.label::before{
+					margin-top: 3px;
+					content: "";
+					position: absolute;
+					width: 2px;
+					height: 9px;
+					background-color: #BDBDBD;
+				}
+				.label::before{
+					content: "";
+					margin-left: 255px;
+					rotate: (-50deg);
+				}
+				.label::after{
+					margin-left: 260px;
+					content: "";
+					rotate: (50deg);
+				}
+				.input__text{
+					width: 85%;
+					padding-bottom: 100px;
+				}
+			}
+			.contact__buttons{
+				margin-top: 55px;
+				margin-bottom: 100px;
+				width: 224px;
+				margin-left: 19px;
+				.button{
+					padding-top: 15px;
+					padding-bottom: 15px;
+					padding-left: 40px;
+				}
+			}
+		}
+	}
+}
+.agency{
+	.container{
+		.agency--offset-top{
+			margin-top: 285px;
+		}
+		.agency__inner{
+			padding-bottom: 40px;
+			padding-left: 37px;
+			padding-right: 37px;
+			.angency__text{
+				.title{
+					color: #252B42;
+					font-weight: 700;
+					font-size: 24px;
+				}
+				.subtitle{
+					margin-top: 10px;
+					font-size: 14px;
+					padding-right: 67px;
+				}
+			}
+			.agency__button{
+				display: flex;
+				justify-content: flex-end;
+				margin-top: 50px;
+				.button{
+					width: 283px;
+					justify-content: center;
+					padding-top: 15px;
+					padding-bottom: 15px;
+				}
+			}
+		}
+	}
+}
+}
+@media(min-width:590px){
+	.contact{
+		.wrapper{
+		.container{
+			.contact__inner{
+				.contact__input{
+					.input,.label{
+						margin-right: 20px;
+					}
+				}
+			}
+		}
+	}
+	}
+}
+@media(min-width:1720px){
+	.contact::before{
+		margin-left: 240px;
+	}
+	.contact{
+		.container{
+			.contact__inner{
+				.contact__input{
+					.input,.label{
+					}
+				}
+			}
+		}
+	}
+	}

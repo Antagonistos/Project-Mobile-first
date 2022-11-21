@@ -23,8 +23,11 @@
 					.menu__item{
 						padding-bottom: 30px;
 						.link{
-
+							transition: 0.3s color;
 						}
+					}
+					.link:hover{
+						color: black;
 					}
 				}
 			}

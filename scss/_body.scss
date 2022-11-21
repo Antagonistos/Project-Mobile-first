@@ -23,6 +23,22 @@ h2{
 	line-height: 57px;
 	color: #252B42;
 }
+h5{
+	font-weight: 700;
+	font-size: 16px;
+}
 .subtitle{
 	font-size: 14px;
+}
+.button{
+	font-weight: 700;
+	color: #fff;
+	font-size: 14px;
+	background-color: #FFA62B;
+	display: flex;
+	border-radius: 5px;
+}
+.button:hover{
+	transition: .3s;
+	background-color: #f1b867;
 }
