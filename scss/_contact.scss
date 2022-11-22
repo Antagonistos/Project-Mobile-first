@@ -1,16 +1,21 @@
-.contact::before{
-	content: '';
-	background-image: url(../images/contact__img.jpg);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	background-repeat: no-repeat;
-}
 .contact{
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	.wrapper::before{
+		content: '';
+		background-image: url(../images/contact__img.jpg);
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background-repeat: no-repeat;
+	}
 	.wrapper{
 	.container{
 		.contact__inner{
+			padding-top: 50px;
+			width: 100%;
 			max-width: 702px;
 			max-height: 579px;
 			.contact__subject{
@@ -96,7 +101,6 @@
 		}
 		.agency__inner{
 			padding-bottom: 40px;
-			padding-left: 37px;
 			padding-right: 37px;
 			.angency__text{
 				.title{
@@ -142,7 +146,6 @@
 }
 @media(min-width:1720px){
 	.contact::before{
-		margin-left: 240px;
 	}
 	.contact{
 		.container{
